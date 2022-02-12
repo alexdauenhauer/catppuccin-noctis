@@ -1,4 +1,7 @@
 # Catppuccin Noctis!
+![banner](images/logo.jpg)
+
+*logo by Eric Dauenhauer. Check out his other generative art and cool pieces at https://ericyd.com/generative-art/*
 ## TL,DR
 This theme takes [Noctis](https://github.com/liviuschera/noctis) syntax highlighting while using the increasingly popular [Catpuccin](https://github.com/catppuccin/catppuccin) palette. A bit of added personal flair as well and color scheme is tuned for python. Enjoy!
 
