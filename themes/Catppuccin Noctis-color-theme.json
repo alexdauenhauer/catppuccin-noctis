@@ -628,7 +628,7 @@
 				"markup.other.anchor string"
 			],
 			"settings": {
-				"foreground": "#F2CDCD"
+				"foreground": "#F8BD96"
 			}
 		},
 		{
@@ -756,6 +756,18 @@
 			}
 		},
 		{
+			"name": "FUNCTION PARAMETERS",
+			"scope": [
+				"variable.parameter.ts",
+				"meta.parameters.ts",
+				"meta.function.parameters.python",
+				"variable.parameter.function.language.python",
+			],
+			"settings": {
+				"foreground": "#F8BD96",
+			}
+		},
+		{
 			"name": "ANNOTATION",
 			"scope": [
 				"support.variable.property",
@@ -820,7 +832,7 @@
 				"markup.meta.attribute-list"
 			],
 			"settings": {
-				"foreground": "#F28FAD"
+				"foreground": "#C9CBFF"
 			}
 		},
 		{
@@ -921,7 +933,7 @@
 				"markup.block entity.name.tag"
 			],
 			"settings": {
-				"foreground": "#E8A2AF"
+				"foreground": "#F28FAD"
 			}
 		},
 		{
@@ -978,7 +990,7 @@
 				"source.toml constant"
 			],
 			"settings": {
-				"foreground": "#F8BD96"
+				"foreground": "#E8A2AF"
 			}
 		},
 		{
