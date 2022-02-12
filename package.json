@@ -3,7 +3,7 @@
     "displayName": "Catppuccin Noctis",
     "description": "Catppuccin palette with Noctis syntax highlighting!",
     "publisher": "alexdauenhauer",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "engines": {
         "vscode": "^1.46.0"
     },
@@ -16,9 +16,9 @@
         "url": "https://github.com/alexdauenhauer/catppuccin-noctis.git"
     },
     "galleryBanner": {
-		"color": "#1E1E2E",
-		"theme": "dark"
-	},
+        "color": "#1E1E2E",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
