@@ -636,6 +636,16 @@
 			}
 		},
 		{
+			"name": "JSON KEYS",
+			"scope": [
+				"support.type.property-name.json.comments",
+				"punctuation.support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#C9CBFF"
+			}
+		},
+		{
 			"name": "KEYWORD",
 			"scope": [
 				"keyword",
