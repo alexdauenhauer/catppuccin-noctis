@@ -636,9 +636,8 @@
 			}
 		},
 		{
-			"name": "JSON KEYS",
+			"name": "JSON KEYS PUNCTUATION",
 			"scope": [
-				"support.type.property-name.json.comments",
 				"punctuation.support.type.property-name"
 			],
 			"settings": {

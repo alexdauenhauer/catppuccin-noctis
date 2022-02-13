@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.4.2
+
+- update JSON keys punctuation to lavender
+
 ## 0.4.1
 
 - update JSON keys to lavender
