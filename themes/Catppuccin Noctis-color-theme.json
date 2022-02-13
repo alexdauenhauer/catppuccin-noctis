@@ -57,7 +57,7 @@
         "editor.wordHighlightStrongBorder": "#C9CBFFb6",
 		"editorBracketMatch.background": "#161320",
 		"editorBracketMatch.border": "#89DCEB",
-		"editorCodeLens.foreground": "#C9CBFF",
+		"editorCodeLens.foreground": "#6E6C7E",
 		"editorCursor.foreground": "#FAE3B0",
 		"editorError.border": "#302D41",
 		"editorError.foreground": "#F28FAD70",
@@ -701,7 +701,7 @@
 				"keyword.control.def.ruby"
 			],
 			"settings": {
-				"foreground": "#89DCEB"
+				"foreground": "#DDB6F2"
 			}
 		},
 		{
@@ -793,7 +793,7 @@
 				"meta.type.parameters entity.name.type",
 				"meta.type.annotation entity.name.type",
 				"punctuation.definition.typeparameters",
-				"source.python support.type.python",
+				// "source.python support.type.python",
 				"comment.block.documentation.phpdoc.php keyword.other.type.php",
 				"storage.type.php",
 				"keyword.type",
@@ -842,7 +842,8 @@
 				"source.scala entity.name.class",
 				"markup.raw.monospace",
 				"markup.mark",
-				"markup.meta.attribute-list"
+				"markup.meta.attribute-list",
+				"meta.function.parameters.python",
 			],
 			"settings": {
 				"foreground": "#C9CBFF"
@@ -1030,32 +1031,32 @@
 				"source.tf support.class"
 			],
 			"settings": {
-				"foreground": "#DDB6F2"
-			}
-		},
-		{
-			"name": "FUNCTION DEF",
-			"scope": [
-				"entity.name.function",
-			],
-			"settings": {
 				"foreground": "#96CDFB"
 			}
 		},
-		{
-			"name": "CLASS DEF",
-			"scope": [
-				"entity.name.type",
-				"storage.type.string.python",
-				"source.python meta.function-call.python support.type.python",
-				"entity.other.inherited-class.python",
-				"entity.name.type.class.python",
-				"entity.name.type.class.python punctuation.definition.class.begin.python",
-			],
-			"settings": {
-				"foreground": "#FAE3B0"
-			}
-		},
+		// {
+		// 	"name": "FUNCTION DEF",
+		// 	"scope": [
+		// 		"entity.name.function",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#96CDFB"
+		// 	}
+		// },
+		// {
+		// 	"name": "CLASS DEF",
+		// 	"scope": [
+		// 		"entity.name.type",
+		// 		"storage.type.string.python",
+		// 		"source.python meta.function-call.python support.type.python",
+		// 		"entity.other.inherited-class.python",
+		// 		"entity.name.type.class.python",
+		// 		"entity.name.type.class.python punctuation.definition.class.begin.python",
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#FAE3B0"
+		// 	}
+		// },
 		{
 			"name": "SUPPORT",
 			"scope": [
@@ -1091,7 +1092,7 @@
 				"entity.name.scope-resolution.function.call"
 			],
 			"settings": {
-				"foreground": "#96CDFB"
+				"foreground": "#89DCEB"
 			}
 		},
 		{
@@ -1141,7 +1142,7 @@
 				"markup.substitution"
 			],
 			"settings": {
-				"foreground": "#96CDFB"
+				"foreground": "#F2CDCD"
 			}
 		},
 		{
@@ -1161,8 +1162,7 @@
 				"variable.parameter.function.language.special",
 			],
 			"settings": {
-				"foreground": "#F2CDCD"
-				// "foreground": "#56f747"
+				"foreground": "#E8A2AF"
 			}
 		},
 		{
