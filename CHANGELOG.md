@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## 0.4.2
 
-- update JSON keys puncutation to lavender
+- update JSON keys punctuation to lavender
 
 ## 0.4.1
 
