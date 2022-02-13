@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.4.4
+
+- bug fix on selection highlighting
+
 ## 0.4.3
 
 - minor tweaks to some tokens
