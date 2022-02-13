@@ -72,6 +72,25 @@
 		"editorGutter.background": "#1E1E2E",
 		"editorGutter.deletedBackground": "#F28FAD60",
 		"editorGutter.modifiedBackground": "#96CDFB60",
+		"editorBracketHighlight.foreground1": "#FAE3B0",
+		"editorBracketHighlight.foreground2": "#DDB6F2",
+		"editorBracketHighlight.foreground3": "#96CDFB",
+		"editorBracketHighlight.foreground4": "#F8BD96",
+		"editorBracketHighlight.foreground5": "#B5E8E0",
+		"editorBracketHighlight.foreground6": "#F5C2E7",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#F28FAD",
+		"editorBracketPairGuide.activeBackground1": "#FAE3B0",
+		"editorBracketPairGuide.activeBackground2": "#DDB6F2",
+		"editorBracketPairGuide.activeBackground3": "#96CDFB",
+		"editorBracketPairGuide.activeBackground4": "#F8BD96",
+		"editorBracketPairGuide.activeBackground5": "#B5E8E0",
+		"editorBracketPairGuide.activeBackground6": "#F5C2E7",
+		"editorBracketPairGuide.background1": "#FAE3B0",
+		"editorBracketPairGuide.background2": "#DDB6F2",
+		"editorBracketPairGuide.background3": "#96CDFB",
+		"editorBracketPairGuide.background4": "#F8BD96",
+		"editorBracketPairGuide.background5": "#B5E8E0",
+		"editorBracketPairGuide.background6": "#F5C2E7",
 		"editorHint.border": "#161320",
 		"editorHint.foreground": "#ABE9B3",
 		"editorHoverWidget.background": "#1E1E2E",
@@ -208,7 +227,7 @@
 		"progressBar.background": "#C9CBFF",
 		"quickInput.background": "#1E1E2E",
 		"quickInput.foreground": "#988BA2",
-		"quickInput.list.focusBackground": "#D9E0EE20",
+		"quickInputList.focusBackground": "#D9E0EE20",
 		"scrollbar.shadow": "#161320",
 		"scrollbarSlider.activeBackground": "#C9CBFF50",
 		"scrollbarSlider.background": "#D9E0EE20",
@@ -577,21 +596,6 @@
 				"foreground": "#6E6C7E"
 			}
 		},
-		// {
-		// 	"name": "DOCSTRING",
-		// 	"scope": [
-		// 		"string.quoted.docstring.multi",
-		// 		"string.quoted.multi",
-		// 		"source.python string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-		// 		"source.python string.quoted.docstring.multi.python punctuation.definition.string.end.python",
-		// 		"source.python string.quoted.multi.python punctuation.definition.string.begin.python",
-		// 		"source.python string.quoted.multi.python punctuation.definition.string.end.python",
-		// 		"markup.fenced_code.block"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#988BA2",
-		// 	}
-		// },
 		{
 			"name": "TEXT",
 			"scope": [
@@ -628,7 +632,7 @@
 				"markup.other.anchor string"
 			],
 			"settings": {
-				"foreground": "#F8BD96"
+				"foreground": "#D9E0EE"
 			}
 		},
 		{
