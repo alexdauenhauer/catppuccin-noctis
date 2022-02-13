@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.4.0
+
+- add bracket pair colorization
+- fix text colorization to be white
+- update screenshots
 
 ## 0.3.0
 

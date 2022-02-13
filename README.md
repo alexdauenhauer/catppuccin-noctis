@@ -16,4 +16,12 @@ Javascript
 ## Description
 I absolutely love the syntax highlighting in the [Noctis](https://github.com/liviuschera/noctis) theme by Liviu Schera, but [Catppuccin](https://github.com/catppuccin/catppuccin) is absolutely blowing up right now and it is such a nice palette, I had to try to combine the two. This is the result!
 
+## 👍 For Best Experience 👍
+add bracket pair colorization to your `settings.json`
+```
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+}
+```
 **Enjoy!**
