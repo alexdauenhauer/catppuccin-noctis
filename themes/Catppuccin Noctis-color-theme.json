@@ -425,15 +425,6 @@
 		"gitlens.unpublishedCommitIconColor": "#ABE9B3",
 		"gitlens.unpulledChangesIconColor": "#F28FAD",
 		"gitlens.unpushlishedChangesIconColor": "#ABE9B3",
-
-		// "banner.background": "#ff0000"
-		// "button.secondaryBackground": "#ff0000"
-		// "button.secondaryHoverBackground": "#ff0000"
-		// "editorHoverWidget.highlightForeground": "#ff0000"
-		// "editorOverviewRuler.background": "#ff0000"
-		"editorInfo.background": "#ff0000"
-
-
 		//"icon.foreground": "#c5c5c5",
 		//"imagePreview.border": "#80808059",
 		// "inputOption.activeForeground": "#D9E0EE",
