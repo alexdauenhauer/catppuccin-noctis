@@ -19,7 +19,7 @@
 		"breadcrumbPicker.background": "#1A1826",
 		"button.background": "#161320",
 		"button.foreground": "#D9E0EE",
-		"button.hoverBackground": "#B5E8E0",
+		"button.hoverBackground": "#302D41",
 		"debugConsole.errorForeground": "#F28FAD",
 		"debugConsole.infoForeground": "#89DCEB",
 		"debugConsole.warningForeground": "#FAE3B0",
@@ -425,9 +425,18 @@
 		"gitlens.unpublishedCommitIconColor": "#ABE9B3",
 		"gitlens.unpulledChangesIconColor": "#F28FAD",
 		"gitlens.unpushlishedChangesIconColor": "#ABE9B3",
+
+		// "banner.background": "#ff0000"
+		// "button.secondaryBackground": "#ff0000"
+		// "button.secondaryHoverBackground": "#ff0000"
+		// "editorHoverWidget.highlightForeground": "#ff0000"
+		// "editorOverviewRuler.background": "#ff0000"
+		"editorInfo.background": "#ff0000"
+
+
 		//"icon.foreground": "#c5c5c5",
 		//"imagePreview.border": "#80808059",
-		//"inputOption.activeForeground": "#D9E0EE",
+		// "inputOption.activeForeground": "#D9E0EE",
 		//"list.deemphasizedForeground": "#8c8c8c",
 		//"list.filterMatchBackground": "#161320",
 		//"list.filterMatchBorder": "#161320",
@@ -638,10 +647,11 @@
 		{
 			"name": "JSON KEYS PUNCTUATION",
 			"scope": [
-				"punctuation.support.type.property-name"
+				"support.type.property-name.json",
+				"source.json meta.structure.dictionary.json support.type.property-name.json",
 			],
 			"settings": {
-				"foreground": "#C9CBFF"
+				"foreground": "#F5E0DC"
 			}
 		},
 		{
@@ -716,7 +726,7 @@
 				"variable.import.parameter",
 				"variable.other.class",
 				"meta.toc-list.id.html",
-				"source.json meta.structure.dictionary.json support.type.property-name.json",
+				// "source.json meta.structure.dictionary.json support.type.property-name.json",
 				"meta.var.clojure",
 				"entity.name.variable",
 				"source.java meta.class.body.java",
