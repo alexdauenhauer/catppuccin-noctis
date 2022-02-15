@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.4.5
+
+- Change button hover highlighting
+- change json keys to rosegold
+
 ## 0.4.4
 
 - bug fix on selection highlighting
