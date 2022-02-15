@@ -19,7 +19,7 @@
 		"breadcrumbPicker.background": "#1A1826",
 		"button.background": "#161320",
 		"button.foreground": "#D9E0EE",
-		"button.hoverBackground": "#B5E8E0",
+		"button.hoverBackground": "#302D41",
 		"debugConsole.errorForeground": "#F28FAD",
 		"debugConsole.infoForeground": "#89DCEB",
 		"debugConsole.warningForeground": "#FAE3B0",
@@ -638,10 +638,11 @@
 		{
 			"name": "JSON KEYS PUNCTUATION",
 			"scope": [
-				"punctuation.support.type.property-name"
+				"support.type.property-name.json",
+				"source.json meta.structure.dictionary.json support.type.property-name.json",
 			],
 			"settings": {
-				"foreground": "#C9CBFF"
+				"foreground": "#F5E0DC"
 			}
 		},
 		{
@@ -716,7 +717,7 @@
 				"variable.import.parameter",
 				"variable.other.class",
 				"meta.toc-list.id.html",
-				"source.json meta.structure.dictionary.json support.type.property-name.json",
+				// "source.json meta.structure.dictionary.json support.type.property-name.json",
 				"meta.var.clojure",
 				"entity.name.variable",
 				"source.java meta.class.body.java",
