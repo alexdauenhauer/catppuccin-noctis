@@ -586,11 +586,7 @@
 				"markup.fenced_code",
 				"markup.fenced_code punctuation.definition",
 				"string.quoted.docstring.multi",
-				"string.quoted.multi",
-				"source.python string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
-				"source.python string.quoted.docstring.multi.python punctuation.definition.string.end.python",
-				"source.python string.quoted.multi.python punctuation.definition.string.begin.python",
-				"source.python string.quoted.multi.python punctuation.definition.string.end.python",
+				"string.quoted.docstring.multi punctuation.definition.string",
 				"markup.fenced_code.block"
 			],
 			"settings": {
@@ -956,6 +952,8 @@
 			"name": "STRING",
 			"scope": [
 				"string",
+				"string.quoted.multi",
+				"string.quoted.multi punctuation.definition.string",
 				"punctuation.definition.string",
 				"source.css support.constant",
 				"entity.name.import.go",
