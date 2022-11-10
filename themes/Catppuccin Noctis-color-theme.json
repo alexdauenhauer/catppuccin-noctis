@@ -512,7 +512,7 @@
 		//"tab.lastPinnedBorder": "#4e5579",
 		//"tab.unfocusedActiveBorderTop": "#DDB6F280",
 		//"tab.unfocusedInactiveBackground": "#1E1E2E",
-		//"terminal.border": "#16132060",
+		"terminal.border": "#C9CBFF",
 		//"terminal.selectionBackground": "#D9E0EE40",
 		//"testing.iconErrored": "#f14c4c",
 		//"testing.iconFailed": "#f14c4c",
