@@ -1350,7 +1350,8 @@
 				"keyword.other.fn.rust",
 				"markup.other.anchor",
 				"markup.list.bullet",
-				"markup.list punctuation.definition"
+				"markup.list punctuation.definition",
+				"storage.type.class.python",
 			],
 			"settings": {
 				"fontStyle": "bold"
