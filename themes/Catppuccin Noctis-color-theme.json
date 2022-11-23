@@ -33,23 +33,23 @@
 		"dropdown.border": "#161320",
 		"dropdown.foreground": "#C9CBFF",
 		"editor.background": "#1E1E2E",
-		"editor.findMatchBackground": "#161320",
+		"editor.findMatchBackground": "#1613204b",
 		"editor.findMatchBorder": "#FAE3B0",
-		"editor.findMatchHighlightBackground": "#161320",
+		"editor.findMatchHighlightBackground": "#1613204b",
 		"editor.findMatchHighlightBorder": "#F8BD96",
-		"editor.findRangeHighlightBackground": "#161320",
+		"editor.findRangeHighlightBackground": "#1613204b",
 		"editor.foreground": "#D9E0EE",
-		"editor.hoverHighlightBackground": "#DDB6F23f",
-		"editor.inactiveSelectionBackground": "#DDB6F233",
+		"editor.hoverHighlightBackground": "#DDB6F24b",
+		"editor.inactiveSelectionBackground": "#DDB6F24b",
 		"editor.lineHighlightBackground": "#161320",
 		"editor.lineHighlightBorder": "#161320",
-		"editor.rangeHighlightBackground": "#575268",
-		"editor.wordHighlightBackground": "#161320",
-		"editor.wordHighlightBorder": "#C9CBFFb6",
-		"editor.wordHighlightStrongBackground": "#161320",
+		"editor.rangeHighlightBackground": "#5752684b",
+		"editor.wordHighlightBackground": "#1613204b",
+		"editor.wordHighlightBorder": "#F5C2E7",
+		"editor.wordHighlightStrongBackground": "#1613204b",
         "editor.wordHighlightStrongBorder": "#F5C2E7",
 		"editor.selectionBackground": "#575268",
-		"editor.selectionHighlightBackground": "#161320",
+		"editor.selectionHighlightBackground": "#1613204b",
 		"editor.selectionHighlightBorder": "#C9CBFFb6",
 		"editor.snippetFinalTabstopHighlightBackground": "#575268",
 		"editor.snippetFinalTabstopHighlightBorder": "#575268",
@@ -763,7 +763,7 @@
 				"markup.code"
 			],
 			"settings": {
-				"foreground": "#D9E0EE"
+				"foreground": "#CDD6F4"
 			}
 		},
 		{
