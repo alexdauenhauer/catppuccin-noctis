@@ -44,7 +44,7 @@
 		"commandCenter.foreground": "#a6adc8",
 		"commandCenter.inactiveBorder": "#b4befe8a",
 		"debugConsole.errorForeground": "#f38ba8",
-		"debugConsole.infoForeground": "#89dceb",
+		"debugConsole.infoForeground": "#94e2d5",
 		"debugConsole.sourceForeground": "#cdd6f4",
 		"debugConsole.warningForeground": "#f9e2af",
 		"debugConsoleInputIcon.foreground": "#cdd6f4",
@@ -57,13 +57,13 @@
 		"debugIcon.breakpointUnverifiedForeground": "#585b70",
 		"debugIcon.continueForeground": "#89b4fa",
 		"debugIcon.disconnectForeground": "#f38ba8",
-		"debugIcon.pauseForeground": "#89b4fa",
+		"debugIcon.pauseForeground": "#f9e2af",
 		"debugIcon.restartForeground": "#a6e3a1",
 		"debugIcon.startForeground": "#a6e3a1",
 		"debugIcon.stepBackForeground": "#89b4fa",
-		"debugIcon.stepIntoForeground": "#89b4fa",
-		"debugIcon.stepOutForeground": "#89b4fa",
-		"debugIcon.stepOverForeground": "#89b4fa",
+		"debugIcon.stepIntoForeground": "#89dceb",
+		"debugIcon.stepOutForeground": "#74c7ec",
+		"debugIcon.stepOverForeground": "#94e2d5",
 		"debugIcon.stopForeground": "#f38ba8",
 		"debugTokenExpression.boolean": "#89b4fa",
 		"debugTokenExpression.error": "#f38ba8",
@@ -71,8 +71,8 @@
 		"debugTokenExpression.number": "#94e2d5",
 		"debugTokenExpression.string": "#fab387",
 		"debugTokenExpression.value": "#585b70",
-		"debugToolBar.background": "#1e1e2e",
-		"debugToolBar.border": "#00000000",
+		"debugToolBar.background": "#181825",
+		"debugToolBar.border": "#b4befe5c",
 		"debugView.exceptionLabelBackground": "#f38ba8a6",
 		"debugView.exceptionLabelForeground": "#cdd6f4",
 		"debugView.stateLabelBackground": "#181825",
@@ -111,8 +111,8 @@
 		"editor.snippetFinalTabstopHighlightBorder": "#585b70",
 		"editor.snippetTabstopHighlightBackground": "#585b70",
 		"editor.snippetTabstopHighlightBorder": "#585b70",
-		"editor.stackFrameHighlightBackground": "#fae2b03b",
-		"editor.symbolHighlightBackground": "#11111b",
+		"editor.stackFrameHighlightBackground": "#f9e2af3b",
+		"editor.symbolHighlightBackground": "#11111b4b",
 		"editor.wordHighlightBackground": "#11111b4b",
 		"editor.wordHighlightBorder": "#cba6f7",
 		"editor.wordHighlightStrongBackground": "#11111b4b",
@@ -396,24 +396,23 @@
 		"sideBarTitle.foreground": "#cdd6f4",
 		"statusBar.background": "#181825",
 		"statusBar.border": "#18182500",
-		"statusBar.debuggingBackground": "#f2cdcd",
-		"statusBar.debuggingBorder": "#f2cdcd",
+		"statusBar.debuggingBackground": "#fab387",
+		"statusBar.debuggingBorder": "#fab387",
 		"statusBar.debuggingForeground": "#11111b",
 		"statusBar.foreground": "#585b70",
 		"statusBar.noFolderBackground": "#181825",
 		"statusBar.noFolderBorder": "#313244",
 		"statusBar.noFolderForeground": "#585b70",
-		"statusBarItem.activeBackground": "#f38ba8",
+		"statusBarItem.activeBackground": "#cba6f7",
 		"statusBarItem.errorBackground": "#00000000",
 		"statusBarItem.errorForeground": "#f38ba8",
-		"statusBarItem.hoverBackground": "#585b70",
 		"statusBarItem.prominentBackground": "#00000000",
 		"statusBarItem.prominentForeground": "#b4befe",
 		"statusBarItem.prominentHoverBackground": "#181825",
 		"statusBarItem.remoteBackground": "#b4befe",
 		"statusBarItem.remoteForeground": "#11111b",
 		"statusBarItem.warningBackground": "#00000000",
-		"statusBarItem.warningForeground": "#fab387",
+		"statusBarItem.warningForeground": "#eba0ac",
 		"tab.activeBackground": "#1e1e2e",
 		"tab.activeBorder": "#b4befe8a",
 		"tab.activeBorderTop": "#b4befe8a",
@@ -1014,7 +1013,7 @@
 				"source.toml constant"
 			],
 			"settings": {
-				"foreground": "#E8A2AF"
+				"foreground": "#eba0ac"
 			}
 		},
 		{
@@ -1129,7 +1128,7 @@
 				"markup.substitution"
 			],
 			"settings": {
-				"foreground": "#F2CDCD"
+				"foreground": "#f2cdcd"
 			}
 		},
 		{
@@ -1149,7 +1148,7 @@
 				"variable.parameter.function.language.special",
 			],
 			"settings": {
-				"foreground": "#E8A2AF"
+				"foreground": "#eba0ac"
 			}
 		},
 		{
