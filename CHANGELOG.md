@@ -4,6 +4,13 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.1.0
+
+- update git decorations
+- update debug icons
+- update settings
+- minor changes to token colors
+
 ## 1.0.2
 
 - fix more mistakes
