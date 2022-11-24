@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.1
+
+- fix mistakes from release
+
 ## 1.0.0
 
 - update all colors to match current catppuccin pallette
