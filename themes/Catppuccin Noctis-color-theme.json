@@ -95,7 +95,7 @@
 		"editor.findRangeHighlightBackground": "#11111b4b",
 		"editor.findRangeHighlightBorder": "#00000000",
 		"editor.focusedStackFrameHighlightBackground": "#a6e3a146",
-		"editor.foldBackground": "#b4befe18",
+		"editor.foldBackground": "#1e1e2e",
 		"editor.foreground": "#cdd6f4",
 		"editor.hoverHighlightBackground": "#585b7082",
 		"editor.inactiveSelectionBackground": "#585b7082",
@@ -594,12 +594,20 @@
 				"markup.other.anchor support.constant",
 				"markup.fenced_code",
 				"markup.fenced_code punctuation.definition",
+			],
+			"settings": {
+				"foreground": "#6c7086"
+			}
+		},
+		{
+			"name": "DOCSTRING",
+			"scope": [
 				"string.quoted.docstring.multi",
 				"string.quoted.docstring.multi punctuation.definition.string",
 				"markup.fenced_code.block"
 			],
 			"settings": {
-				"foreground": "#585b70"
+				"foreground": "#9399b2"
 			}
 		},
 		{
