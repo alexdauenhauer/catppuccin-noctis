@@ -1441,7 +1441,8 @@
 				"source.nim keyword.other",
 				"source.scala keyword.declaration",
 				"source.scala entity.name.class.declaration",
-				"keyword.control.lua"
+				"keyword.control.lua",
+				"source.python meta.function-call.python support.type.python"
 			],
 			"settings": {
 				"fontStyle": ""
