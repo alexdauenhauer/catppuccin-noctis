@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.2
+
+- make inlay hints less visible
+
 ## 1.2.1
 
 - un-italic meta.function-call.python
