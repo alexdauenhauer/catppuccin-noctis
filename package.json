@@ -6,7 +6,7 @@
     "version": "1.2.2",
     "icon": "images/logo.jpg",
     "engines": {
-        // "vscode": "^1.46.0"
+        "vscode": "^1.46.0"
     },
     "categories": [
         "Themes",
