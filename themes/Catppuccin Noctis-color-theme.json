@@ -11,8 +11,8 @@
 		"activityBar.inactiveForeground": "#585b70",
 		"activityBarBadge.background": "#b4befe",
 		"activityBarBadge.foreground": "#11111b",
-		"badge.background": "#b4befe",
-		"badge.foreground": "#11111b",
+		"badge.background": "#313244",
+		"badge.foreground": "#a6adc8",
 		"breadcrumb.activeSelectionForeground": "#b4befe",
 		"breadcrumb.background": "#1e1e2e",
 		"breadcrumb.focusForeground": "#cdd6f4",
@@ -1152,7 +1152,7 @@
 		{
 			"name": "SELF",
 			"scope": [
-                "variable.language",
+				"variable.language",
 				"variable.parameter.function.language.special",
 			],
 			"settings": {
