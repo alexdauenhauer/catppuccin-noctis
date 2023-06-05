@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.0
+
+- enable semantic highlighting
+- update notebook cell borders
+
 ## 1.3.0
 
 - update borders and backgrounds on buttons, inputs cells, dropdowns, etc
