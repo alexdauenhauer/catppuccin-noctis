@@ -103,7 +103,7 @@
         "editor.lineHighlightBorder": "#00000000",
         "editor.linkedEditingBackground": "#f38ba849",
         "editor.rangeHighlightBackground": "#585b7082",
-        "editor.rangeHighlightBorder": "#b4befe8a",
+        "editor.rangeHighlightBorder": "#00000000",
         "editor.selectionBackground": "#585b7082",
         "editor.selectionHighlightBackground": "#11111b4b",
         "editor.selectionHighlightBorder": "#b4befe8a",
