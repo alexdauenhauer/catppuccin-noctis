@@ -4,6 +4,12 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.1
+
+- soften find* borders
+- improve format for inlay hints
+- fix extension buttons
+
 ## 1.4.0
 
 - enable semantic highlighting
