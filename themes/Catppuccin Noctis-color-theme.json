@@ -337,7 +337,7 @@
         "notebook.cellBorderColor": "#313244",
         "notebook.focusedCellBorder": "#94e2d5",
         "notebook.focusedEditorBorder": "#b4befe8a",
-        "notebook.inactiveFocusedCellBorder": "#b4befe8a",
+        "notebook.inactiveFocusedCellBorder": "#00000000",
         "notebook.selectedCellBorder": "#94e2d5",
         "notificationCenter.border": "#181825",
         "notificationCenterHeader.background": "#181825",
