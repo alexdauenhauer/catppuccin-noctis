@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.3
+
+- remove notebook.inactiveFocusedCellBorder
+
 ## 1.4.2
 
 - remove rangeHighlightBorder
