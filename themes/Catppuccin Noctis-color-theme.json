@@ -1,7 +1,7 @@
 {
     "name": "Catppuccin Noctis",
-	"type": "dark",
-	"colors": {
+    "type": "dark",
+    "colors": {
         "activityBar.activeBackground": "#00000000",
         "activityBar.activeBorder": "#00000000",
         "activityBar.activeFocusBorder": "#00000000",
@@ -169,11 +169,11 @@
         "editorInfo.border": "#b4befe8a",
         "editorInfo.foreground": "#6c7086",
         "editorInlayHint.background": "#1e1e2e",
-        "editorInlayHint.foreground":"#6c7086",
-        "editorInlayHint.typeForeground":"#6c7086",
-        "editorInlayHint.typeBackground":"#1e1e2e",
-        "editorInlayHint.parameterForeground":"#6c7086",
-        "editorInlayHint.parameterBackground":"#1e1e2e",
+        "editorInlayHint.foreground": "#6c7086",
+        "editorInlayHint.typeForeground": "#6c7086",
+        "editorInlayHint.typeBackground": "#1e1e2e",
+        "editorInlayHint.parameterForeground": "#6c7086",
+        "editorInlayHint.parameterBackground": "#1e1e2e",
         "editorLightBulb.foreground": "#f9e2af",
         "editorLightBulbAutoFix.foreground": "#89b4fa",
         "editorLineNumber.activeForeground": "#b4befe",
@@ -754,7 +754,6 @@
                 "source.cpp",
                 "source.go",
                 "source.python",
-                "meta.function-call.arguments.python",
                 "source.ruby",
                 "source.coffee.embedded.source",
                 "source.coffee",
@@ -802,8 +801,7 @@
             "scope": [
                 "variable.parameter.ts",
                 "meta.parameters.ts",
-                "meta.function.parameters.python",
-                "variable.parameter.function.language.python"
+                "variable.parameter.function.language.python",
             ],
             "settings": {
                 "foreground": "#fab387"
@@ -872,7 +870,8 @@
                 "markup.raw.monospace",
                 "markup.mark",
                 "markup.meta.attribute-list",
-                "meta.function.parameters.python"
+                // "meta.function.parameters.python",
+                // "meta.item-access.python"
             ],
             "settings": {
                 "foreground": "#b4befe"
@@ -1066,6 +1065,34 @@
             }
         },
         {
+            "name": "FUNCTION-CALL",
+            "scope": [
+                "variable.parameter.function-call",
+                "variable.parameter.function-call.python",
+            ],
+            "settings": {
+                "foreground": "#f2cdcd"
+            }
+        },
+        {
+            "name": "KEYWORD-LOGICAL",
+            "scope": [
+                "keyword.operator.logical",
+            ],
+            "settings": {
+                "foreground": "#f5c2e7"
+            }
+        },
+        {
+            "name": "DECORATOR",
+            "scope": [
+                "entity.name.function.decorator",
+            ],
+            "settings": {
+                "foreground": "#94e2d5"
+            }
+        },
+        {
             "name": "SUPPORT",
             "scope": [
                 "entity.name",
@@ -1097,7 +1124,9 @@
                 "keyword.language.gherkin.feature.scenario",
                 "source.nim keyword.other.common.function",
                 "entity.name.type.namespace",
-                "entity.name.scope-resolution.function.call"
+                "entity.name.scope-resolution.function.call",
+                "punctuation.definition.arguments.begin.python",
+                "punctuation.definition.arguments.end.python",
             ],
             "settings": {
                 "foreground": "#89dceb"
@@ -1463,5 +1492,5 @@
             }
         }
     ],
-	"semanticHighlighting": true
+    "semanticHighlighting": true
 }
