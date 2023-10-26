@@ -4,6 +4,12 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.0
+
+- update coloring for function calls
+- update coloring for logical keywords
+- update README with new code samples
+
 ## 1.4.3
 
 - remove notebook.inactiveFocusedCellBorder
