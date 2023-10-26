@@ -12,8 +12,16 @@ Typescript
 ![Typescript](images/ts_sample.png)
 Javascript
 ![Javascript](images/js_sample.png)
+Java
+![Java](images/java_sample.png)
 C++
 ![C++](images/cpp_sample.png)
+C#
+![C#](images/cs_sample.png)
+Go
+![Go](images/go_sample.png)
+Rust
+![Rust](images/rust_sample.png)
 
 ## Description
 I absolutely love the syntax highlighting in the [Noctis](https://github.com/liviuschera/noctis) theme by Liviu Schera, but [Catppuccin](https://github.com/catppuccin/catppuccin) is absolutely blowing up right now and it is such a nice palette, I had to try to combine the two. This is the result!
