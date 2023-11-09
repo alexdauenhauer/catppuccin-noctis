@@ -4,6 +4,12 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.1
+
+- update bracket guide pairs (thanks @jereconjota)
+- update change warning highlight (thanks @jereconjota)
+- update warning colors throughout for consistency
+
 ## 1.5.0
 
 - update coloring for function calls
