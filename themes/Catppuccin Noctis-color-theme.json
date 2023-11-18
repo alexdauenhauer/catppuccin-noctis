@@ -1065,25 +1065,6 @@
             }
         },
         {
-            "name": "FUNCTION-CALL",
-            "scope": [
-                "variable.parameter.function-call",
-                "variable.parameter.function-call.python",
-            ],
-            "settings": {
-                "foreground": "#f2cdcd"
-            }
-        },
-        {
-            "name": "KEYWORD-LOGICAL",
-            "scope": [
-                "keyword.operator.logical",
-            ],
-            "settings": {
-                "foreground": "#f5c2e7"
-            }
-        },
-        {
             "name": "DECORATOR",
             "scope": [
                 "entity.name.function.decorator",
