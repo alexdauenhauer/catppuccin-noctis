@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.2
+
+- revert coloring for function calls
+- revert coloring for logical keywords
+
 ## 1.5.1
 
 - update bracket guide pairs (thanks @jereconjota)
