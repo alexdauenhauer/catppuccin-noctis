@@ -23,9 +23,14 @@
     "contributes": {
         "themes": [
             {
-                "label": "Catppuccin Noctis",
+                "label": "Catppuccin Noctis Mocha",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Catppuccin Noctis-color-theme.json"
+                "path": "./themes/Catppuccin Noctis Mocha-color-theme.json"
+            },
+            {
+                "label": "Catppuccin Noctis Macchiato",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Catppuccin Noctis Macchiato-color-theme.json"
             }
         ]
     }
