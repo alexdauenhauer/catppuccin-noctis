@@ -3,7 +3,7 @@
     "displayName": "Catppuccin Noctis",
     "description": "Catppuccin palette with Noctis syntax highlighting!",
     "publisher": "alexdauenhauer",
-    "version": "1.5.2",
+    "version": "2.0.0",
     "icon": "images/logo.jpg",
     "engines": {
         "vscode": "^1.46.0"
@@ -31,6 +31,16 @@
                 "label": "Catppuccin Noctis Macchiato",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Catppuccin Noctis Macchiato-color-theme.json"
+            },
+            {
+                "label": "Catppuccin Noctis Frappé",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Catppuccin Noctis Frappé-color-theme.json"
+            },
+            {
+                "label": "Catppuccin Noctis Latte",
+                "uiTheme": "vs",
+                "path": "./themes/Catppuccin Noctis Latte-color-theme.json"
             }
         ]
     }
