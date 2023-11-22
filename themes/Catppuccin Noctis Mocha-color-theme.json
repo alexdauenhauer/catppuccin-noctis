@@ -1473,5 +1473,5 @@
             }
         }
     ],
-    "semanticHighlighting": true
+    "semanticHighlighting": false,
 }
