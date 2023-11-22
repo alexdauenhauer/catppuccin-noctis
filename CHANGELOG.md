@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.1.0
+
+- turn off semantic highlighting
+
 ## 2.0.0
 
 - add the other flavors from https://github.com/catppuccin/catppuccin#-palette
