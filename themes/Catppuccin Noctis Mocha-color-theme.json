@@ -250,7 +250,7 @@
         "gitlens.decorations.branchUpToDateForegroundColor": "#a6adc8",
         "gitlens.decorations.copiedForegroundColor": "#94e2d5",
         "gitlens.decorations.deletedForegroundColor": "#f38ba8",
-        "gitlens.decorations.ignoredForegroundColor": "#a6adc8",
+        "gitlens.decorations.ignoredForegroundColor": "#6c7086",
         "gitlens.decorations.modifiedForegroundColor": "#89dceb",
         "gitlens.decorations.renamedForegroundColor": "#94e2d5",
         "gitlens.decorations.untrackedForegroundColor": "#a6e3a1",
