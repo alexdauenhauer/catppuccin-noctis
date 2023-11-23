@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.1.2
+
+- apply 2.1.1 changes to all themes and gitlens colors
+
 ## 2.1.1
 
 - change gitDecoration.ignoredResourceForeground to match color of comments
