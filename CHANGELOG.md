@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.2.1
+
+- change inputValidation error and warning backgrounds to not be transparent
+- update statusbarItems to align better with how activityBar is highlighted
+
 ## 2.1.2
 
 - apply 2.1.1 changes to all themes and gitlens colors
