@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.3.1
+
+- update Mocha Alt to match 2.2.1 changes in Mocha
+
 ## 2.2.1
 
 - change inputValidation error and warning backgrounds to not be transparent
