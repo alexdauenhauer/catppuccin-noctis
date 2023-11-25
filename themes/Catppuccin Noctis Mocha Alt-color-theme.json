@@ -620,7 +620,8 @@
         },
         {
             "scope": [
-                "storage.type.function"
+                "storage.type.function",
+                "storage.type.class"
             ],
             "settings": {
                 "foreground": "#f38ba8",
@@ -628,20 +629,23 @@
         },
         {
             "scope": [
-                "storage.type.class"
+                "support.type",
+                "entity.other.inherited-class",
             ],
             "settings": {
-                "foreground": "#74c7ec",
+                "foreground": "#89dceb",
             }
         },
         {
             "scope": [
-                "support.type",
+                // "support.type",
                 "support.function.builtin",
                 "support.function.magic",
+                // "entity.other.inherited-class",
+                "support.type.property-name"
             ],
             "settings": {
-                "foreground": "#89dceb",
+                "foreground": "#74c7ec",
             }
         },
         {
@@ -718,22 +722,6 @@
             ],
             "settings": {
                 "foreground": "#fab387",
-            }
-        },
-        {
-            "scope": [
-                "entity.other.inherited-class"
-            ],
-            "settings": {
-                "foreground": "#f5c2e7",
-            }
-        },
-        {
-            "scope": [
-                "support.type.property-name"
-            ],
-            "settings": {
-                "foreground": "#74c7ec",
             }
         },
         {
