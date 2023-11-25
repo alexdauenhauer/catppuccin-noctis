@@ -3,7 +3,7 @@
     "displayName": "Catppuccin Noctis",
     "description": "Catppuccin palette with Noctis syntax highlighting!",
     "publisher": "alexdauenhauer",
-    "version": "2.2.2",
+    "version": "2.2.1",
     "icon": "images/logo.jpg",
     "engines": {
         "vscode": "^1.63.0"
