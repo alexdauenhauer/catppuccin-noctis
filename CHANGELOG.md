@@ -4,10 +4,6 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 2.2.2
-
-- fix extensionIcon.preReleaseForeground
-
 ## 2.2.1
 
 - change inputValidation error and warning backgrounds to not be transparent
