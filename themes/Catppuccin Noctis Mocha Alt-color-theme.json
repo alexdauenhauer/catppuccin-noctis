@@ -622,7 +622,8 @@
         {
             "scope": [
                 "storage.type.function",
-                "storage.type.class"
+                "storage.type.class",
+                "storage.type.string",
             ],
             "settings": {
                 "foreground": "#f38ba8",
@@ -708,14 +709,17 @@
             }
         },
         {
+            "name": "STRING",
             "scope": [
                 "string",
+                "string.quoted.docstring.single",
             ],
             "settings": {
                 "foreground": "#a6e3a1",
             }
         },
         {
+            "name": "CLASS",
             "scope": [
                 "entity.name.type.class",
                 "variable.parameter.function.language.special.self",
@@ -764,11 +768,24 @@
             "name": "NO FORMAT",
             "scope": [
                 "support.type.property-name",
+                "string.quoted.docstring.single",
             ],
             "settings": {
                 "fontStyle": ""
             }
         },
     ],
-    "semanticHighlighting": false,
+    // "semanticHighlighting": false,
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "parameter": "#f2cdcd",
+        "class": "#89dceb",
+        "class.declaration": "#fab387",
+        "class.typeHint": "#b4befe",
+        "class.typeHint.builtin": "#89dceb",
+        "class.builtin": "#89dceb",
+        "function.builtin": "#89dceb",
+        "selfParameter": "#fab387",
+        "function.decorator": "#94e2d5",
+    }
 }
