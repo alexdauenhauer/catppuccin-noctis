@@ -16,6 +16,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - update Mocha Alt to match 2.2.1 changes in Mocha
 
+## 2.2.3
+
+- udpate statusbar coloring
+
 ## 2.2.2
 
 - fix extensionIcon.preReleaseForeground
