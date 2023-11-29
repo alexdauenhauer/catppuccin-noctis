@@ -640,10 +640,8 @@
         },
         {
             "scope": [
-                // "support.type",
                 "support.function.builtin",
                 "support.function.magic",
-                // "entity.other.inherited-class",
                 "support.type.property-name"
             ],
             "settings": {
@@ -678,12 +676,20 @@
         {
             "scope": [
                 "variable.parameter.function",
-                "variable.parameter.function-call",
+                // "variable.parameter.function-call",
             ],
             "settings": {
                 "foreground": "#f2cdcd",
             }
         },
+        // {
+        //     "scope": [
+        //         "variable.parameter.function-call",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#f5e0dc",
+        //     }
+        // },
         {
             "scope": [
                 "keyword",
@@ -758,7 +764,7 @@
                 "variable.parameter.function.language.special.self",
                 "variable.language.special.self",
                 "entity.other.inherited-class",
-                "support.type",
+                // "support.type",
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -778,14 +784,24 @@
     // "semanticHighlighting": false,
     "semanticHighlighting": true,
     "semanticTokenColors": {
-        "parameter": "#f2cdcd",
+        "parameter": {
+            "foreground": "#f2cdcd",
+            "fontStyle": "italic"
+        },
+        "parameter.declaration": {
+            "foreground": "#f2cdcd",
+            "fontStyle": "bold"
+        },
         "class": "#89dceb",
         "class.declaration": "#fab387",
         "class.typeHint": "#b4befe",
         "class.typeHint.builtin": "#89dceb",
         "class.builtin": "#89dceb",
-        "function.builtin": "#89dceb",
+        "function.builtin": "#74c7ec",
         "selfParameter": "#fab387",
-        "function.decorator": "#94e2d5",
+        "selfParameter.declaration": {
+            "foreground": "#fab387",
+            "fontStyle": "italic"
+        },
     }
 }
