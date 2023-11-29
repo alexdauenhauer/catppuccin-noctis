@@ -624,6 +624,7 @@
                 "storage.type.function",
                 "storage.type.class",
                 "storage.type.string",
+                "markup.heading",
             ],
             "settings": {
                 "foreground": "#f38ba8",
@@ -633,6 +634,7 @@
             "scope": [
                 "support.type",
                 "entity.other.inherited-class",
+                "markup.underline.link"
             ],
             "settings": {
                 "foreground": "#89dceb",
@@ -665,18 +667,19 @@
                 "foreground": "#94e2d5",
             }
         },
-        {
-            "scope": [
-                "punctuation.separator.annotation.result"
-            ],
-            "settings": {
-                "foreground": "#a6adc8",
-            }
-        },
+        // {
+        //     "scope": [
+        //         "punctuation.separator.annotation.result"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#a6adc8",
+        //     }
+        // },
         {
             "scope": [
                 "variable.parameter.function",
                 // "variable.parameter.function-call",
+                "markup.fenced_code.block",
             ],
             "settings": {
                 "foreground": "#f2cdcd",
@@ -740,7 +743,8 @@
             "scope": [
                 "keyword",
                 "variable.parameter.function",
-                "variable.parameter.function-call"
+                "variable.parameter.function-call",
+                "markup.heading",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -764,7 +768,7 @@
                 "variable.parameter.function.language.special.self",
                 "variable.language.special.self",
                 "entity.other.inherited-class",
-                // "support.type",
+                "markup.list"
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -781,7 +785,6 @@
             }
         },
     ],
-    // "semanticHighlighting": false,
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "parameter": {
