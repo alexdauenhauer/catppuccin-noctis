@@ -4,6 +4,12 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.5.0
+
+- add semantic highlighting to Mocha Alt
+- update bracket pair coloring
+- update a few token colors
+
 ## 2.3.4
 
 - update Mocha Alt to match 2.2.3 changes in Mocha
