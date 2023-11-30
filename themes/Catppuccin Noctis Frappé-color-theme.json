@@ -1478,5 +1478,33 @@
             }
         }
     ],
-    "semanticHighlighting": false
+    "semanticHighlighting": true,
+    "semanticTokenColors": {
+        "parameter": {
+            "foreground": "#ef9f76",
+            "fontStyle": ""
+        },
+        "parameter.declaration": {
+            "foreground": "#ef9f76",
+            "fontStyle": "bold"
+        },
+        "class": "#99d1db",
+        "class.declaration": "#eebebe",
+        "class.typeHint": "#babbf1",
+        "class.typeHint.builtin": "#99d1db",
+        "class.builtin": "#99d1db",
+        "function.builtin": "#85c1dc",
+        "function.decorator": "#81c8be",
+        "property": {
+            "fontStyle": ""
+        },
+        "selfParameter": {
+            "foreground": "#ea999c",
+            "fontStyle": "italic"
+        },
+        "selfParameter.declaration": {
+            "foreground": "#ea999c",
+            "fontStyle": "italic"
+        },
+    }
 }

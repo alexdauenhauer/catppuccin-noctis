@@ -1,5 +1,5 @@
 {
-    "name": "Catppuccin Noctis Mocha Alt",
+    "name": "Catppuccin Alt Mocha",
     "type": "dark",
     "colors": {
         "activityBar.activeBackground": "#00000000",
@@ -603,6 +603,7 @@
     },
     "tokenColors": [
         {
+            "name": "COMMENT",
             "scope": [
                 "comment"
             ],
@@ -611,110 +612,19 @@
             }
         },
         {
+            "name": "PUNCTUATION",
             "scope": [
-                "comment.block.documentation",
-                "string.quoted.docstring"
+                "punctuation.support.type",
+                // "punctuation.separator.dictionary",
+                "punctuation.separator",
+                "punctuation.section",
+                "punctuation.terminator",
+                "punctuation.other",
+                "punctuation.semi",
+                "punctuation.support.type",
             ],
             "settings": {
-                "foreground": "#6c7086",
-            }
-        },
-        {
-            "scope": [
-                "storage.type.function",
-                "storage.type.class",
-                "storage.type.string",
-                "markup.heading",
-            ],
-            "settings": {
-                "foreground": "#f38ba8",
-            }
-        },
-        {
-            "scope": [
-                "support.type",
-                "entity.other.inherited-class",
-                "markup.underline.link"
-            ],
-            "settings": {
-                "foreground": "#89dceb",
-            }
-        },
-        {
-            "scope": [
-                "support.function.builtin",
-                "support.function.magic",
-                "support.type.property-name"
-            ],
-            "settings": {
-                "foreground": "#74c7ec",
-            }
-        },
-        {
-            "scope": [
-                "entity.name.function",
-                "meta.function-call.generic"
-            ],
-            "settings": {
-                "foreground": "#89b4fa",
-            }
-        },
-        {
-            "scope": [
-                "entity.name.function.decorator",
-            ],
-            "settings": {
-                "foreground": "#94e2d5",
-            }
-        },
-        // {
-        //     "scope": [
-        //         "punctuation.separator.annotation.result"
-        //     ],
-        //     "settings": {
-        //         "foreground": "#a6adc8",
-        //     }
-        // },
-        {
-            "scope": [
-                "variable.parameter.function",
-                // "variable.parameter.function-call",
-                "markup.fenced_code.block",
-            ],
-            "settings": {
-                "foreground": "#f2cdcd",
-            }
-        },
-        // {
-        //     "scope": [
-        //         "variable.parameter.function-call",
-        //     ],
-        //     "settings": {
-        //         "foreground": "#f5e0dc",
-        //     }
-        // },
-        {
-            "scope": [
-                "keyword",
-            ],
-            "settings": {
-                "foreground": "#cba6f7",
-            }
-        },
-        {
-            "scope": [
-                "constant",
-            ],
-            "settings": {
-                "foreground": "#eba0ac",
-            }
-        },
-        {
-            "scope": [
-                "constant.other.caps",
-            ],
-            "settings": {
-                "foreground": "#f9e2af",
+                "foreground": "#9399b2",
             }
         },
         {
@@ -728,23 +638,175 @@
             }
         },
         {
-            "name": "CLASS",
+            "name": "KEYWORD",
+            "scope": [
+                "keyword",
+                "storage.modifier",
+                "storage.type.modifier.access.control",
+            ],
+            "settings": {
+                "foreground": "#cba6f7",
+            }
+        },
+        {
+            "name": "CONSTANT",
+            "scope": [
+                "constant",
+                "punctuation.bracket",
+                "punctuation.brackets",
+            ],
+            "settings": {
+                "foreground": "#eba0ac",
+            }
+        },
+        {
+            "name": "DOCSTRING",
+            "scope": [
+                "comment.block.documentation",
+                "string.quoted.docstring",
+            ],
+            "settings": {
+                "foreground": "#6c7086",
+            }
+        },
+        {
+            "name": "DEF",
+            "scope": [
+                // "storage.type.function",
+                // "storage.type.class",
+                // "storage.type.string",
+                // "storage.type.template"
+                "storage.type",
+                "markup.heading",
+                "keyword.other.class",
+                "keyword.function",
+                "keyword.interface",
+                "meta.class.identifier storage.modifier",
+                "meta.function.definition keyword.other",
+            ],
+            "settings": {
+                "foreground": "#f38ba8",
+            }
+        },
+        {
+            "name": "ENTITY NAME",
+            "scope": [
+                "support.type",
+                "entity.other.inherited-class",
+                "markup.underline.link",
+                "entity.name.scope-resolution",
+                "entity.name.type.cs",
+            ],
+            "settings": {
+                "foreground": "#89dceb",
+            }
+        },
+        {
+            "name": "TYPE",
+            "scope": [
+                "storage.type.built-in",
+                "entity.name.type",
+                "keyword.type",
+                "source.go storage.type",
+                "source.java storage.type",
+            ],
+            "settings": {
+                "foreground": "#b4befe",
+            }
+        },
+        {
+            "name": "MAGIC",
+            "scope": [
+                "support.function.builtin",
+                "support.function.magic",
+            ],
+            "settings": {
+                "foreground": "#74c7ec",
+            }
+        },
+        {
+            "name": "KEYS AND TAGS",
+            "scope": [
+                "support.type.property-name",
+                "entity.name.tag",
+            ],
+            "settings": {
+                "foreground": "#74c7ec",
+            }
+        },
+        {
+            "name": "DECORATOR",
+            "scope": [
+                "entity.name.function.decorator",
+            ],
+            "settings": {
+                "foreground": "#94e2d5",
+            }
+        },
+        {
+            "name": "FUNCTION",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call.generic",
+                "punctuation.definition.decorator",
+                "source.go support.function",
+            ],
+            "settings": {
+                "foreground": "#89b4fa",
+            }
+        },
+        {
+            "name": "PARAMETER",
+            "scope": [
+                "variable.parameter.function",
+                "markup.fenced_code.block",
+            ],
+            "settings": {
+                "foreground": "#f2cdcd",
+            }
+        },
+        {
+            "name": "CONSTANT OTHER",
+            "scope": [
+                "constant.other.caps",
+            ],
+            "settings": {
+                "foreground": "#f9e2af",
+            }
+        },
+        {
+            "name": "SELF",
             "scope": [
                 "entity.name.type.class",
                 "variable.parameter.function.language.special.self",
-                "variable.language.special.self"
+                "variable.language.special.self",
+                "variable.language.this",
+                "keyword.other.this",
             ],
             "settings": {
                 "foreground": "#fab387",
             }
         },
         {
+            "name": "TEXT",
+            "scope": [
+                "text",
+                "meta.import storage.modifier",
+            ],
+            "settings": {
+                "foreground": "#cdd6f4",
+            }
+        },
+        {
             "name": "BOLD",
             "scope": [
                 "keyword",
+                "variable.parameter",
                 "variable.parameter.function",
                 "variable.parameter.function-call",
+                "entity.name.variable.parameter",
                 "markup.heading",
+                "meta.class.identifier storage.modifier",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -753,7 +815,7 @@
         {
             "name": "ITALIC BOLD",
             "scope": [
-                "storage",
+                "storage.type",
             ],
             "settings": {
                 "fontStyle": "italic bold"
@@ -768,7 +830,14 @@
                 "variable.parameter.function.language.special.self",
                 "variable.language.special.self",
                 "entity.other.inherited-class",
-                "markup.list"
+                "markup.list",
+                "storage.type.built-in",
+                "storage.type.modifier.access.control",
+                "storage.modifier",
+                "variable.language.this",
+                "keyword.other.this",
+                "keyword.type",
+                "source.go storage.type",
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -777,8 +846,15 @@
         {
             "name": "NO FORMAT",
             "scope": [
+                "text",
                 "support.type.property-name",
                 "string.quoted.docstring.single",
+                "storage.type.template",
+                "keyword.interface",
+                "source.java storage.type",
+                "meta.import storage.modifier",
+                "meta.var.expr storage.type",
+                "source.rust storage.type",
             ],
             "settings": {
                 "fontStyle": ""
@@ -801,6 +877,7 @@
         "class.typeHint.builtin": "#89dceb",
         "class.builtin": "#89dceb",
         "function.builtin": "#74c7ec",
+        "function.decorator": "#94e2d5",
         "selfParameter": "#fab387",
         "selfParameter.declaration": {
             "foreground": "#fab387",
