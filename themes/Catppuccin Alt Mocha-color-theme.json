@@ -622,6 +622,7 @@
                 "punctuation.other",
                 "punctuation.semi",
                 "punctuation.support.type",
+                "markup.fenced_code.block",
             ],
             "settings": {
                 "foreground": "#9399b2",
@@ -643,6 +644,7 @@
                 "keyword",
                 "storage.modifier",
                 "storage.type.modifier.access.control",
+                "markup.heading",
             ],
             "settings": {
                 "foreground": "#cba6f7",
@@ -654,6 +656,7 @@
                 "constant",
                 "punctuation.bracket",
                 "punctuation.brackets",
+                "fenced_code.block.language",
             ],
             "settings": {
                 "foreground": "#eba0ac",
@@ -677,7 +680,6 @@
                 // "storage.type.string",
                 // "storage.type.template"
                 "storage.type",
-                "markup.heading",
                 "keyword.other.class",
                 "keyword.function",
                 "keyword.interface",
@@ -750,6 +752,7 @@
                 "meta.function-call.generic",
                 "punctuation.definition.decorator",
                 "source.go support.function",
+                "string.other.link.title",
             ],
             "settings": {
                 "foreground": "#89b4fa",
@@ -759,7 +762,6 @@
             "name": "PARAMETER",
             "scope": [
                 "variable.parameter.function",
-                "markup.fenced_code.block",
             ],
             "settings": {
                 "foreground": "#f2cdcd",
@@ -816,6 +818,7 @@
             "name": "ITALIC BOLD",
             "scope": [
                 "storage.type",
+                "fenced_code.block.language",
             ],
             "settings": {
                 "fontStyle": "italic bold"
