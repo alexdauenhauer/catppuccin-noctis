@@ -620,13 +620,14 @@
             }
         },
         {
+            "name": "DEF",
             "scope": [
                 "storage.type.function",
                 "storage.type.class",
                 "storage.type.string",
                 "markup.heading",
                 "storage.type.template",
-                "storage.type.modifier.access.control",
+                "keyword.other.class",
             ],
             "settings": {
                 "foreground": "#f38ba8",
@@ -639,21 +640,25 @@
                 "markup.underline.link",
                 "entity.name.scope-resolution",
                 "storage.type.built-in",
+                "entity.name.type.cs",
             ],
             "settings": {
                 "foreground": "#89dceb",
             }
         },
         {
+            "name": "TYPE",
             "scope": [
                 "storage.type.built-in",
                 "entity.name.type",
+                "keyword.type",
             ],
             "settings": {
                 "foreground": "#b4befe",
             }
         },
         {
+            "name": "MAGIC",
             "scope": [
                 "support.function.builtin",
                 "support.function.magic",
@@ -695,6 +700,8 @@
             "name": "KEYWORD",
             "scope": [
                 "keyword",
+                "storage.modifier",
+                "storage.type.modifier.access.control",
             ],
             "settings": {
                 "foreground": "#cba6f7",
@@ -729,12 +736,13 @@
             }
         },
         {
-            "name": "CLASS",
+            "name": "SELF",
             "scope": [
                 "entity.name.type.class",
                 "variable.parameter.function.language.special.self",
                 "variable.language.special.self",
                 "variable.language.this",
+                "keyword.other.this",
             ],
             "settings": {
                 "foreground": "#fab387",
@@ -744,8 +752,10 @@
             "name": "BOLD",
             "scope": [
                 "keyword",
+                "variable.parameter",
                 "variable.parameter.function",
                 "variable.parameter.function-call",
+                "entity.name.variable.parameter",
                 "markup.heading",
             ],
             "settings": {
@@ -772,8 +782,11 @@
                 "entity.other.inherited-class",
                 "markup.list",
                 "storage.type.built-in",
+                "storage.type.modifier.access.control",
                 "storage.modifier",
                 "variable.language.this",
+                "keyword.other.this",
+                "keyword.type",
             ],
             "settings": {
                 "fontStyle": "italic"
