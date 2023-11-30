@@ -603,6 +603,7 @@
     },
     "tokenColors": [
         {
+            "name": "COMMENT",
             "scope": [
                 "comment"
             ],
@@ -611,6 +612,37 @@
             }
         },
         {
+            "name": "STRING",
+            "scope": [
+                "string",
+                "string.quoted.docstring.single",
+            ],
+            "settings": {
+                "foreground": "#a6e3a1",
+            }
+        },
+        {
+            "name": "KEYWORD",
+            "scope": [
+                "keyword",
+                "storage.modifier",
+                "storage.type.modifier.access.control",
+            ],
+            "settings": {
+                "foreground": "#cba6f7",
+            }
+        },
+        {
+            "name": "CONSTANT",
+            "scope": [
+                "constant",
+            ],
+            "settings": {
+                "foreground": "#eba0ac",
+            }
+        },
+        {
+            "name": "DOCSTRING",
             "scope": [
                 "comment.block.documentation",
                 "string.quoted.docstring"
@@ -622,24 +654,27 @@
         {
             "name": "DEF",
             "scope": [
-                "storage.type.function",
-                "storage.type.class",
-                "storage.type.string",
+                // "storage.type.function",
+                // "storage.type.class",
+                // "storage.type.string",
+                // "storage.type.template"
+                "storage.type",
                 "markup.heading",
-                "storage.type.template",
                 "keyword.other.class",
+                "keyword.function",
+                "keyword.interface",
             ],
             "settings": {
                 "foreground": "#f38ba8",
             }
         },
         {
+            "name": "ENTITY NAME",
             "scope": [
                 "support.type",
                 "entity.other.inherited-class",
                 "markup.underline.link",
                 "entity.name.scope-resolution",
-                "storage.type.built-in",
                 "entity.name.type.cs",
             ],
             "settings": {
@@ -652,6 +687,7 @@
                 "storage.type.built-in",
                 "entity.name.type",
                 "keyword.type",
+                "source.go storage.type",
             ],
             "settings": {
                 "foreground": "#b4befe",
@@ -678,16 +714,19 @@
             }
         },
         {
+            "name": "FUNCTION",
             "scope": [
                 "entity.name.function",
                 "meta.function-call.generic",
-                "punctuation.definition.decorator"
+                "punctuation.definition.decorator",
+                "source.go support.function",
             ],
             "settings": {
                 "foreground": "#89b4fa",
             }
         },
         {
+            "name": "PARAMETER",
             "scope": [
                 "variable.parameter.function",
                 "markup.fenced_code.block",
@@ -697,42 +736,12 @@
             }
         },
         {
-            "name": "KEYWORD",
-            "scope": [
-                "keyword",
-                "storage.modifier",
-                "storage.type.modifier.access.control",
-            ],
-            "settings": {
-                "foreground": "#cba6f7",
-            }
-        },
-        {
-            "name": "CONSTANT",
-            "scope": [
-                "constant",
-            ],
-            "settings": {
-                "foreground": "#eba0ac",
-            }
-        },
-        {
             "name": "CONSTANT OTHER",
             "scope": [
                 "constant.other.caps",
             ],
             "settings": {
                 "foreground": "#f9e2af",
-            }
-        },
-        {
-            "name": "STRING",
-            "scope": [
-                "string",
-                "string.quoted.docstring.single",
-            ],
-            "settings": {
-                "foreground": "#a6e3a1",
             }
         },
         {
@@ -787,6 +796,7 @@
                 "variable.language.this",
                 "keyword.other.this",
                 "keyword.type",
+                "source.go storage.type",
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -798,6 +808,7 @@
                 "support.type.property-name",
                 "string.quoted.docstring.single",
                 "storage.type.template",
+                "keyword.interface",
             ],
             "settings": {
                 "fontStyle": ""
