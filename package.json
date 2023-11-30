@@ -28,9 +28,9 @@
                 "path": "./themes/Catppuccin Noctis Mocha-color-theme.json"
             },
             {
-                "label": "Catppuccin Noctis Mocha Alt",
+                "label": "Catppuccin Alt Mocha",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Catppuccin Noctis Mocha Alt-color-theme.json"
+                "path": "./themes/Catppuccin Alt Mocha-color-theme.json"
             },
             {
                 "label": "Catppuccin Noctis Macchiato",
