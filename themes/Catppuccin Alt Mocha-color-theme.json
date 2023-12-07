@@ -608,7 +608,7 @@
                 "comment"
             ],
             "settings": {
-                "foreground": "#585b70",
+                "foreground": "#6c7086",
             }
         },
         {
@@ -669,7 +669,7 @@
                 "string.quoted.docstring",
             ],
             "settings": {
-                "foreground": "#6c7086",
+                "foreground": "#7f849c",
             }
         },
         {
