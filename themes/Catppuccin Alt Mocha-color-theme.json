@@ -886,5 +886,7 @@
             "foreground": "#fab387",
             "fontStyle": "italic"
         },
+        "enum.declaration": "#fab387",
+        "enum": "#89dceb",
     }
 }
