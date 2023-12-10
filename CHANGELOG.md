@@ -4,6 +4,13 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.5.3
+
+- change enum semantic highlighting to match class
+- increase brightness for comments
+- disable semantic highlighting by default for Noctis themes
+- remove italic formatting in markup.list
+
 ## 2.5.2
 
 - change coloring in markdown
