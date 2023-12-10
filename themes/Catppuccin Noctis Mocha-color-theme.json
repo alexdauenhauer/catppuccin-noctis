@@ -1487,7 +1487,7 @@
             }
         }
     ],
-    "semanticHighlighting": true,
+    "semanticHighlighting": false,
     "semanticTokenColors": {
         "parameter": {
             "foreground": "#fab387",

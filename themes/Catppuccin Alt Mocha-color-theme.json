@@ -608,7 +608,7 @@
                 "comment"
             ],
             "settings": {
-                "foreground": "#585b70",
+                "foreground": "#6c7086",
             }
         },
         {
@@ -669,7 +669,7 @@
                 "string.quoted.docstring",
             ],
             "settings": {
-                "foreground": "#6c7086",
+                "foreground": "#7f849c",
             }
         },
         {
@@ -833,7 +833,6 @@
                 "variable.parameter.function.language.special.self",
                 "variable.language.special.self",
                 "entity.other.inherited-class",
-                "markup.list",
                 "storage.type.built-in",
                 "storage.type.modifier.access.control",
                 "storage.modifier",
@@ -886,5 +885,7 @@
             "foreground": "#fab387",
             "fontStyle": "italic"
         },
+        "enum.declaration": "#fab387",
+        "enum": "#89dceb",
     }
 }
