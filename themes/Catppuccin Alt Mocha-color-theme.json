@@ -731,6 +731,7 @@
             "scope": [
                 "support.type.property-name",
                 "entity.name.tag",
+                "keyword.other.definition.ini",
             ],
             "settings": {
                 "foreground": "#74c7ec",
@@ -771,6 +772,8 @@
             "name": "CONSTANT OTHER",
             "scope": [
                 "constant.other.caps",
+                "entity.name.section.group-title",
+                "support.type.property-name.table",
             ],
             "settings": {
                 "foreground": "#f9e2af",
@@ -809,6 +812,8 @@
                 "entity.name.variable.parameter",
                 "markup.heading",
                 "meta.class.identifier storage.modifier",
+                "entity.name.section.group-title",
+                "support.type.property-name.table",
             ],
             "settings": {
                 "fontStyle": "bold"
@@ -857,6 +862,7 @@
                 "meta.import storage.modifier",
                 "meta.var.expr storage.type",
                 "source.rust storage.type",
+                "keyword.other.definition.ini",
             ],
             "settings": {
                 "fontStyle": ""
