@@ -866,11 +866,11 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "parameter": {
-            "foreground": "#f2cdcd",
-            "fontStyle": "italic"
+            "foreground": "#f5e0dc",
+            "fontStyle": ""
         },
         "parameter.declaration": {
-            "foreground": "#f2cdcd",
+            "foreground": "#f5e0dc",
             "fontStyle": "bold"
         },
         "class": "#89dceb",
@@ -880,7 +880,10 @@
         "class.builtin": "#89dceb",
         "function.builtin": "#74c7ec",
         "function.decorator": "#94e2d5",
-        "selfParameter": "#fab387",
+        "selfParameter": {
+            "foreground": "#fab387",
+            "fontStyle": "italic"
+        },
         "selfParameter.declaration": {
             "foreground": "#fab387",
             "fontStyle": "italic"
