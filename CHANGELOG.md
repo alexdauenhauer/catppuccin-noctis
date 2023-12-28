@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.5.4
+
+- remove italics from parameter semantic highlighting
+- update formatting on config file keys
+
 ## 2.5.3
 
 - change enum semantic highlighting to match class
