@@ -206,7 +206,7 @@
         "editorSuggestWidget.border": "#b4befe8a",
         "editorSuggestWidget.foreground": "#cdd6f4",
         "editorSuggestWidget.highlightForeground": "#b4befe",
-        "editorSuggestWidget.selectedBackground": "#181825",
+        "editorSuggestWidget.selectedBackground": "#313244",
         "editorWarning.background": "#00000000",
         "editorWarning.border": "#00000000",
         "editorWarning.foreground": "#f9e2af",
@@ -1119,6 +1119,15 @@
             }
         },
         {
+            "name": "PYTHON SEMANTIC HIGHLIGHTING PATCH",
+            "scope": [
+                "source.python entity.name.namespace"
+            ],
+            "settings": {
+                "foreground": "#cdd6f4"
+            }
+        },
+        {
             "name": "MISC",
             "scope": [
                 "source.js constant.other.object.key.js string.unquoted.label.js",
@@ -1479,4 +1488,32 @@
         }
     ],
     "semanticHighlighting": false,
+    "semanticTokenColors": {
+        "parameter": {
+            "foreground": "#fab387",
+            "fontStyle": ""
+        },
+        "parameter.declaration": {
+            "foreground": "#fab387",
+            "fontStyle": "bold"
+        },
+        "class": "#89dceb",
+        "class.declaration": "#f2cdcd",
+        "class.typeHint": "#b4befe",
+        "class.typeHint.builtin": "#89dceb",
+        "class.builtin": "#89dceb",
+        "function.builtin": "#74c7ec",
+        "function.decorator": "#94e2d5",
+        "property": {
+            "fontStyle": ""
+        },
+        "selfParameter": {
+            "foreground": "#eba0ac",
+            "fontStyle": "italic"
+        },
+        "selfParameter.declaration": {
+            "foreground": "#eba0ac",
+            "fontStyle": "italic"
+        },
+    }
 }

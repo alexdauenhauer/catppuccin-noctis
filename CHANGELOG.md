@@ -4,6 +4,50 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.5.4
+
+- remove italics from parameter semantic highlighting
+- update formatting on config file keys
+
+## 2.5.3
+
+- change enum semantic highlighting to match class
+- increase brightness for comments
+- disable semantic highlighting by default for Noctis themes
+- remove italic formatting in markup.list
+
+## 2.5.2
+
+- change coloring in markdown
+
+## 2.5.1
+
+- get Alt Mocha ready for prime time -> work on syntaxes for many other languages
+- update some things on Alt Mocha (specifically punctuation and misc other things)
+- add semantic highlighting on other themes
+
+## 2.5.0
+
+- add semantic highlighting to Mocha Alt
+- update bracket pair coloring
+- update a few token colors
+
+## 2.3.4
+
+- update Mocha Alt to match 2.2.3 changes in Mocha
+
+## 2.3.3
+
+- update Mocha Alt to match 2.2.2 changes in Mocha
+
+## 2.3.2
+
+- tidying up, some changes to colors
+
+## 2.3.1
+
+- update Mocha Alt to match 2.2.1 changes in Mocha
+
 ## 2.2.3
 
 - udpate statusbar coloring

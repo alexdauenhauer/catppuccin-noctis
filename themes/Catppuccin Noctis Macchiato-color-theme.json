@@ -206,7 +206,7 @@
         "editorSuggestWidget.border": "#b7bdf88a",
         "editorSuggestWidget.foreground": "#cad3f5",
         "editorSuggestWidget.highlightForeground": "#b7bdf8",
-        "editorSuggestWidget.selectedBackground": "#1e2030",
+        "editorSuggestWidget.selectedBackground": "#363a4f",
         "editorWarning.background": "#00000000",
         "editorWarning.border": "#00000000",
         "editorWarning.foreground": "#eed49f",
@@ -1478,5 +1478,33 @@
             }
         }
     ],
-    "semanticHighlighting": false
+    "semanticHighlighting": false,
+    "semanticTokenColors": {
+        "parameter": {
+            "foreground": "#f5a97f",
+            "fontStyle": ""
+        },
+        "parameter.declaration": {
+            "foreground": "#f5a97f",
+            "fontStyle": "bold"
+        },
+        "class": "#91d7e3",
+        "class.declaration": "#f0c6c6",
+        "class.typeHint": "#b7bdf8",
+        "class.typeHint.builtin": "#91d7e3",
+        "class.builtin": "#91d7e3",
+        "function.builtin": "#7dc4e4",
+        "function.decorator": "#8bd5ca",
+        "property": {
+            "fontStyle": ""
+        },
+        "selfParameter": {
+            "foreground": "#ee99a0",
+            "fontStyle": "italic"
+        },
+        "selfParameter.declaration": {
+            "foreground": "#ee99a0",
+            "fontStyle": "italic"
+        },
+    }
 }
