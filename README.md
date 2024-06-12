@@ -6,21 +6,30 @@
 This theme takes [Noctis](https://github.com/liviuschera/noctis) syntax highlighting while using the increasingly popular [Catpuccin](https://github.com/catppuccin/catppuccin) palette. A bit of added personal flair as well and color scheme is tuned for python. Enjoy!
 
 ## Sample Images
-Python
-![Python](images/python_sample.png)
-Typescript
+### Python
+Alt Mocha
+![Python Alt Mocha](images/python_sample_alt_mocha.png)
+Mocha
+![Python Mocha](images/python_sample_mocha.png)
+Macchiato
+![Python Macchiato](images/python_sample_macchiato.png)
+Frappe
+![Python Frappe](images/python_sample_frappe.png)
+Latte
+![Python Latte](images/python_sample_latte.png)
+### Typescript
 ![Typescript](images/ts_sample.png)
-Javascript
+### Javascript
 ![Javascript](images/js_sample.png)
-Java
+### Java
 ![Java](images/java_sample.png)
-C++
+### C++
 ![C++](images/cpp_sample.png)
-C#
+### C#
 ![C#](images/cs_sample.png)
-Go
+### Go
 ![Go](images/go_sample.png)
-Rust
+### Rust
 ![Rust](images/rust_sample.png)
 
 ## Description
