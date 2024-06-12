@@ -206,7 +206,7 @@
         "editorSuggestWidget.border": "#b7bdf88a",
         "editorSuggestWidget.foreground": "#cad3f5",
         "editorSuggestWidget.highlightForeground": "#b7bdf8",
-        "editorSuggestWidget.selectedBackground": "#1e2030",
+        "editorSuggestWidget.selectedBackground": "#363a4f",
         "editorWarning.background": "#00000000",
         "editorWarning.border": "#00000000",
         "editorWarning.foreground": "#eed49f",
