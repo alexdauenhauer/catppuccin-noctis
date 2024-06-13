@@ -4,6 +4,11 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 3.1.1
+
+- update notebook cell highlighting
+- update notebook cell inactive border
+
 ## 3.0.1
 
 - update package and changelog 🤦
