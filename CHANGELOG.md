@@ -4,6 +4,10 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 3.1.6
+
+- fix `dropdown.listBackground`
+
 ## 3.1.5
 
 - fix `list.activeSelectionBackground` so that it is not the same color as the list background
