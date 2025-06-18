@@ -1498,6 +1498,7 @@
             "fontStyle": "bold"
         },
         "class": "#89dceb",
+        "class.dfinition": "#f2cdcd",
         "class.declaration": "#f2cdcd",
         "class.typeHint": "#b4befe",
         "class.typeHint.builtin": "#89dceb",
