@@ -881,6 +881,7 @@
             "fontStyle": "bold"
         },
         "class": "#89dceb",
+        "class.definition": "#fab387",
         "class.declaration": "#fab387",
         "class.typeHint": "#b4befe",
         "class.typeHint.builtin": "#89dceb",
