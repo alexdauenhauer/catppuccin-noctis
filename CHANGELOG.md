@@ -4,6 +4,8 @@ All notable changes to the "catppuccin-noctis" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 3.1.8
+
 ## 3.1.7
 
 - add 'class.definition' in semantic highlighting rules
